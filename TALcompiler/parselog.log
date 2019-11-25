@@ -1,0 +1,162 @@
+STACK CONTENTS: [0]
+ACTION PERFORMED: SHIFT 2
+STACK AFTER ACTION: [0, exe, 2]
+
+
+STACK CONTENTS: [0, exe, 2]
+ACTION PERFORMED: SHIFT 3
+STACK AFTER ACTION: [0, exe, 2, (, 3]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3]
+ACTION PERFORMED: SHIFT 4
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4]
+ACTION PERFORMED: SHIFT 6
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6]
+ACTION PERFORMED: SHIFT 16
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, KW_datatype, 16]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, KW_datatype, 16]
+ACTION PERFORMED: SHIFT 35
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, KW_datatype, 16, Identifier, 35]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, KW_datatype, 16, Identifier, 35]
+ACTION PERFORMED: SHIFT 46
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, KW_datatype, 16, Identifier, 35, ;, 46]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, KW_datatype, 16, Identifier, 35, ;, 46]
+ACTION PERFORMED: REDUCE 8
+GOTO STATE:8
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, D, 8]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, D, 8]
+ACTION PERFORMED: REDUCE 28
+GOTO STATE:24
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, D, 8, R, 24]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, D, 8, R, 24]
+ACTION PERFORMED: REDUCE 5
+GOTO STATE:11
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11]
+ACTION PERFORMED: SHIFT 18
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18]
+ACTION PERFORMED: SHIFT 36
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36]
+ACTION PERFORMED: SHIFT 23
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Identifier, 23]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Identifier, 23]
+ACTION PERFORMED: REDUCE 18
+GOTO STATE:10
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, F, 10]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, F, 10]
+ACTION PERFORMED: REDUCE 16
+GOTO STATE:13
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, T, 13]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, T, 13]
+ACTION PERFORMED: REDUCE 13
+GOTO STATE:47
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47]
+ACTION PERFORMED: SHIFT 32
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32]
+ACTION PERFORMED: SHIFT 23
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32, Identifier, 23]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32, Identifier, 23]
+ACTION PERFORMED: REDUCE 18
+GOTO STATE:10
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32, F, 10]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32, F, 10]
+ACTION PERFORMED: REDUCE 16
+GOTO STATE:44
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32, T, 44]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, +, 32, T, 44]
+ACTION PERFORMED: REDUCE 11
+GOTO STATE:47
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47]
+ACTION PERFORMED: SHIFT 53
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, ;, 53]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Identifier, 18, =, 36, Z, 47, ;, 53]
+ACTION PERFORMED: REDUCE 9
+GOTO STATE:9
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, E, 9]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, E, 9]
+ACTION PERFORMED: REDUCE 28
+GOTO STATE:26
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, E, 9, R, 26]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, E, 9, R, 26]
+ACTION PERFORMED: REDUCE 6
+GOTO STATE:11
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, G, 11]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, G, 11]
+ACTION PERFORMED: REDUCE 3
+GOTO STATE:27
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, G, 11, Y, 27]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, G, 11, Y, 27]
+ACTION PERFORMED: REDUCE 4
+GOTO STATE:27
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Y, 27]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, G, 11, Y, 27]
+ACTION PERFORMED: REDUCE 4
+GOTO STATE:14
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, Y, 14]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, Y, 14]
+ACTION PERFORMED: SHIFT 31
+STACK AFTER ACTION: [0, exe, 2, (, 3, ), 4, {, 6, Y, 14, }, 31]
+
+
+STACK CONTENTS: [0, exe, 2, (, 3, ), 4, {, 6, Y, 14, }, 31]
+ACTION PERFORMED: SUGGEST -1

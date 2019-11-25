@@ -1,0 +1,21 @@
+exe ( ) {
+	
+
+		intg var1 ;
+		intg var2 ;
+
+		floatg result;
+
+		var1 = 23;
+		var2 =933; 
+
+		var1+var2;
+
+		result = var1*var2/(var1 + var2-var1/46-12*var2) / (12+89.3342/14.0076);
+
+		show("The ans is: ");
+		showLine ( result);
+
+	}
+
+

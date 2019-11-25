@@ -1,0 +1,10 @@
+exe ( ) {
+	
+
+	showLine("showing Error");
+
+	intg var + var;
+
+}
+
+

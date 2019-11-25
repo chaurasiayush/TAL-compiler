@@ -1,0 +1,16 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+
+--------------------------------
+ TALcompiler project           
+--------------------------------
+ Developed by-   
+  * Abhishek Kumar Singh          
+  * Anish Shrivastav                
+  * Ayush Chaurasia    
+--------------------------------
+
+<#if licenseLast??>
+${licenseLast}
+</#if>

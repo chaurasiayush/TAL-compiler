@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/lexicalAnalyzer/Tag.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/errorHandler/Error.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/parseTable/NonTerminal.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/Grammar.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/lexicalAnalyzer/Token.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/talcompiler/TALcompiler.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/parseTable/GotoTable.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/SLRparser.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/Infopkg.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/Rule.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/interediateCodeGenerator/ICgenerator.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/parseTable/ActionTable.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/syntaxAnalyzer/parseTable/ActionType.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/lexicalAnalyzer/IdentifierSpecial.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/lexicalAnalyzer/LexicalAnalyzer.java</file>
+            <file>file:/C:/Users/ayush/Documents/project/TALcompiler/src/lexicalAnalyzer/Operator.java</file>
+        </group>
+    </open-files>
+</project-private>

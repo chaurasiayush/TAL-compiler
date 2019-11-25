@@ -1,0 +1,6 @@
+exe ( ) {
+	
+	intg a;
+	a = a+badid;
+
+} intg var1;

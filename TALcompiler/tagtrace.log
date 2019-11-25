@@ -1,0 +1,15 @@
+"exe"                <Special_ID>
+"("		                     <SYMBL_OPBR>
+")"		                     <SYMBL_CLBR>
+"{"		                     <SYMBL_OPCR>
+"intg"                 <Keyworrd>
+"a"                <Identifier>
+":"		                     <SYMBL_SEMICOLON>
+"a"                <Identifier>
+"="                     <OP_ASGN>
+"a"                <Identifier>
+"+"                     <OP_PLUS>
+"badid"                <Identifier>
+":"		                     <SYMBL_SEMICOLON>
+"}"		                     <SYMBL_CLCR>
+"intg"                 <Keyworrd>
